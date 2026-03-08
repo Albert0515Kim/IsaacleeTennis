@@ -33,9 +33,9 @@ function HeroSection() {
         />
       </div>
 
-      <div className="relative z-10 text-center px-6 py-24 max-w-2xl mx-auto">
+      <div className="relative z-10 text-center px-6 py-20 md:py-24 max-w-2xl mx-auto">
         <h1
-          className="tracking-[0.15em] uppercase mb-3"
+          className="tracking-[0.15em] uppercase mb-2"
           style={{
             fontFamily: "'Playfair Display', serif",
             fontSize: "3rem",
@@ -48,7 +48,7 @@ function HeroSection() {
         </h1>
 
         <p
-          className="tracking-[0.3em] uppercase text-muted-foreground mb-10"
+          className="tracking-[0.3em] uppercase text-muted-foreground mb-4"
           style={{
             fontFamily: "'Cormorant Garamond', serif",
             fontSize: "0.85rem",
@@ -58,10 +58,8 @@ function HeroSection() {
         >
           Private Tennis Coaching
         </p>
-
-
         <p
-          className="tracking-[0.3em] uppercase text-muted-foreground mb-10"
+          className="tracking-[0.3em] uppercase text-muted-foreground mb-6"
           style={{
             fontFamily: "'Cormorant Garamond', serif",
             fontSize: "0.85rem",
@@ -71,13 +69,10 @@ function HeroSection() {
         >
           Irvine, CA
         </p>
-
-
-
-        <div className="w-10 mx-auto border-t border-foreground/20 mb-10" />
+        <div className="w-10 mx-auto border-t border-foreground/20 mb-8" />
 
         <p
-          className="text-muted-foreground mb-14 max-w-md mx-auto"
+          className="text-muted-foreground mb-10 max-w-md mx-auto"
           style={{
             fontFamily: "'Cormorant Garamond', serif",
             fontSize: "1.2rem",
@@ -178,7 +173,7 @@ function ExperienceSection() {
           }}
         >
           <p>
-            Isaac Lee brings 3 years of coaching experience to each lesson.
+            Isaac Lee brings 3 years of coaching experience and a lifelong passion for tennis to his private coaching practice.
             He has coached as a Junior Pro at LifeSport Libertyville and as Pro
             Staff in Newport Beach Tennis Club's junior program, Grip N Rip.
           </p>
