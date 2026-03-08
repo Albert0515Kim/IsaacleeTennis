@@ -57,6 +57,7 @@ function HeroSection() {
           }}
         >
           Private Tennis Coaching
+          Irvine, CA
         </p>
 
         <div className="w-10 mx-auto border-t border-foreground/20 mb-10" />
