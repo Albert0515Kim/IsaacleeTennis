@@ -1,34 +1,19 @@
-import imgForehand from "figma:asset/6c910907ea6711f255a0b4161959e8ee611fbf43.png";
-import imgServe from "figma:asset/e6a99e7cb2317690a74729b3ff4dce8fa5813993.png";
-import imgRacket from "figma:asset/d7adb6c8cd6d95412226a759987f8fb2d816f6e9.png";
+import imgForehand from "../assets/6c910907ea6711f255a0b4161959e8ee611fbf43.png";
+import imgServe from "../assets/e6a99e7cb2317690a74729b3ff4dce8fa5813993.png";
+import imgRacket from "../assets/d7adb6c8cd6d95412226a759987f8fb2d816f6e9.png";
 
 const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdlKDW_YhhF3B93UG77lXCi8AlWbZAEvEwlXJ3_dHlmn4HmRQ/viewform?usp=publish-editor";
 
 const testimonials = [
   {
     quote:
-      "Isaac's coaching completely transformed my son's game. His focus on fundamentals gave him the confidence to compete at a much higher level.",
-    author: "Parent of junior player",
+      "I mentored Isaac at LifeSport Libertyville and watched his growth firsthand. His work ethic, self-discipline, and commitment to improvement led him from student to Junior Professional, where he coached Red Ball, Orange Ball, and high school match play with strong leadership and care for every player's development.",
+    author: "Brice Krizman, Tennis Coach at LifeSport Libertyville",
   },
   {
     quote:
-      "Technical, patient, and extremely professional. Isaac understands the game at a level that few coaches do.",
-    author: "Adult league player",
-  },
-  {
-    quote:
-      "After six months with Isaac, my ranking improved significantly. He sees things in your technique that no one else catches.",
-    author: "Competitive junior, age 16",
-  },
-  {
-    quote:
-      "Isaac brings a calm intensity to every session. My daughter looks forward to training every week.",
-    author: "Parent of club player",
-  },
-  {
-    quote:
-      "The best investment I've made in my tennis. Disciplined, structured, and genuinely cares about your progress.",
-    author: "Adult recreational player",
+      "Isaac Lee is a tremendous tennis player who dedicated himself to the sport from a young age. Not only is Isaac a great player but an even better mentor with his methodical teaching style and attention to detail.",
+    author: "A Northwestern Student",
   },
 ];
 
@@ -178,33 +163,29 @@ function ExperienceSection() {
           }}
         >
           <p>
-            Isaac Lee brings over fifteen years of coaching experience to every
-            lesson. A former Division I collegiate player, Isaac competed at the
-            highest amateur level before dedicating his career to developing
-            players of all ages and abilities.
+            Isaac Lee brings 3 years of coaching experience to each lesson.
+            He has coached as a Junior Pro at LifeSport Libertyville and as Pro
+            Staff in Newport Beach Tennis Club's junior program, Grip N Rip.
           </p>
           <p>
-            His students range from junior development players preparing for
-            competitive tournaments to adult club members seeking to refine their
-            technique. Isaac has guided multiple juniors to sectional and
-            national rankings, and has helped countless recreational players find
-            greater consistency and enjoyment in their game.
+            He has helped junior developmental players build stronger
+            fundamentals and confidence, while also teaching adult clinics for
+            players looking to improve consistency and match play skills.
           </p>
           <p>
-            His coaching philosophy is rooted in the classical fundamentals of
-            tennis — sound footwork, clean stroke production, tactical awareness,
-            and the discipline to improve through deliberate practice. Isaac
-            believes that lasting improvement comes not from shortcuts, but from
-            building a reliable foundation that holds under pressure.
+            Isaac was a four-year high school varsity player and now plays
+            college club tennis. His philosophy is that tennis is for everyone:
+            a fun, healthy sport where every player has meaningful growth
+            potential with focused coaching and deliberate practice.
           </p>
         </div>
 
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { value: "15+", label: "Years Coaching" },
-            { value: "D-I", label: "Collegiate Player" },
-            { value: "200+", label: "Students Trained" },
-            { value: "All", label: "Ages & Levels" },
+            { value: "3", label: "Years Coaching" },
+            { value: "4", label: "Years Varsity" },
+            { value: "Club", label: "College Tennis" },
+            { value: "All Levels", label: "Coaching Focus" },
           ].map((stat) => (
             <div key={stat.label}>
               <p
