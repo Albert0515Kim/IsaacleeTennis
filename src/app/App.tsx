@@ -57,8 +57,22 @@ function HeroSection() {
           }}
         >
           Private Tennis Coaching
+        </p>
+
+
+        <p
+          className="tracking-[0.3em] uppercase text-muted-foreground mb-10"
+          style={{
+            fontFamily: "'Cormorant Garamond', serif",
+            fontSize: "0.85rem",
+            fontWeight: 400,
+            letterSpacing: "0.35em",
+          }}
+        >
           Irvine, CA
         </p>
+
+
 
         <div className="w-10 mx-auto border-t border-foreground/20 mb-10" />
 
